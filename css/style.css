@@ -1,0 +1,142 @@
+/* Global CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+}
+
+/* header section CSS */
+
+header .nav-item .nav-link{
+    color: #b0b0b0;
+    margin: 10px;
+    transition: 0.6s;
+}
+
+header .nav-item .nav-link:hover{
+    color: #ff8b38;
+    /* background: url(/img/line.png) center bottom no-repeat; */
+    transform: scale(1.2);
+    transition: 0.6s
+}
+
+/* banner section css */
+
+.banner-section{
+    width: 100%;
+    position: relative;
+    background: url(../img/background.png) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* left css */
+.banner-section .row .left{
+    padding: 108px 18px;
+    
+}
+
+.banner-section .row .left h1{
+    color: white;
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 30px;
+}
+
+.banner-section .row .left span{
+    color: #ff8b38;
+    font-weight: 400;
+
+}
+
+.banner-section .row .left h3{
+        color: white;
+        width: 100%;
+        font-weight: 300;
+        font-size: 54px;
+        margin-bottom: 35px;
+}
+
+.banner-section .row .left p {
+    color: #c9c5c1;
+    width: 100%;
+    font-size: 25px;
+    margin-bottom: 45px;
+    margin-top: 31px;
+}
+
+.banner-section .row .left a{
+    padding: 10px 20px;
+    border: 2px solid #f5f5f5;
+    text-decoration: none;
+    color: #f5f5f5;
+    transition: 0.6s;
+}
+
+.banner-section .row .left a:hover{
+    background: #ff8b38;
+    border: 2px solid #ff8b38;
+    transition: 0.6s;
+    
+}
+
+/* Right CSS */
+
+.banner-form {
+    padding: 178px 50px;
+    width: 600px;
+}
+
+.banner-form .card {
+    border: none;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-left: 165px;
+}
+
+.banner-form .card .card-header{
+    border-bottom:  none;
+}
+
+.banner-form .card .card-header h2{
+        font-size: 20px;
+        color: black;
+        text-align: center;
+}
+
+.banner-form .card .card-header h2 span{
+    color: #ff8b38;
+    text-transform: uppercase;
+}
+
+.banner-form .card .card-body .form-group .form-control{
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    margin-bottom: 22px;
+}
+
+.banner-form .card .card-footer{
+    background: #ff8b38;
+    border: none;
+}
+
+.banner-form .card .card-footer .form-group .form-control{
+    border: none;
+    background: transparent;
+}
+
+/* banner-icon css */
+
+.banner-icon{
+    border: 1px solid #c9c5c1;
+    height: 100%;
+}
+
+.banner-icon .row{
+    display: flex;
+}
